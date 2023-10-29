@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/tmdb/MainActivity.java</file>
+  <line>29</line>
+  <module>TMDB.app.main</module>
+  <package>com.example.tmdb</package>
+  <entry_point TYPE="method" FQNAME="com.example.tmdb.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+  <problem_class id="Deprecation" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API usage</problem_class>
+  <description>'setOnNavigationItemSelectedListener(com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener)' is deprecated</description>
+  <highlighted_element>setOnNavigationItemSelectedListener</highlighted_element>
+  <language>JAVA</language>
+  <offset>-234</offset>
+  <length>35</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/tmdb/MainActivity.java</file>
+  <line>49</line>
+  <module>TMDB.app.main</module>
+  <package>com.example.tmdb</package>
+  <entry_point TYPE="field" FQNAME="com.example.tmdb.MainActivity navigationItemSelectedListener" />
+  <problem_class id="Deprecation" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API usage</problem_class>
+  <description>'com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener' is deprecated</description>
+  <highlighted_element>OnNavigationItemSelectedListener</highlighted_element>
+  <language>JAVA</language>
+  <offset>-221</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/tmdb/MainActivity.java</file>
+  <line>50</line>
+  <module>TMDB.app.main</module>
+  <package>com.example.tmdb</package>
+  <entry_point TYPE="class" FQNAME="com.example.tmdb.MainActivity$1" />
+  <problem_class id="Deprecation" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated API usage</problem_class>
+  <description>'com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener' is deprecated</description>
+  <highlighted_element>OnNavigationItemSelectedListener</highlighted_element>
+  <language>JAVA</language>
+  <offset>-200</offset>
+  <length>32</length>
+</problem>
+</problems>

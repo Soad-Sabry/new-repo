@@ -1,0 +1,39 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/tmdb/MainActivity.java</file>
+  <line>34</line>
+  <module>TMDB.app.main</module>
+  <package>com.example.tmdb</package>
+  <entry_point TYPE="method" FQNAME="com.example.tmdb.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'publisherid'</description>
+  <highlighted_element>publisherid</highlighted_element>
+  <language>JAVA</language>
+  <offset>-168</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/tmdb/MainActivity.java</file>
+  <line>37</line>
+  <module>TMDB.app.main</module>
+  <package>com.example.tmdb</package>
+  <entry_point TYPE="method" FQNAME="com.example.tmdb.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'profileid'</description>
+  <highlighted_element>profileid</highlighted_element>
+  <language>JAVA</language>
+  <offset>-145</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/tmdb/MainActivity.java</file>
+  <line>72</line>
+  <module>TMDB.app.main</module>
+  <package>com.example.tmdb</package>
+  <entry_point TYPE="method" FQNAME="com.example.tmdb.MainActivity$1 boolean onNavigationItemSelected(android.view.MenuItem item)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word ''</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

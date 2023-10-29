@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    tools:context=".Chat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/messageET"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-2dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_msg"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_above="@id/messageET" />
+
+    </ScrollView>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Type a message"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="10dp"
+        android:textSize="18sp"
+        android:textAlignment="textStart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:textColor="@color/black"
+        android:background="@drawable/custom_edittext"
+        android:textColorHint="#A8A7A7"
+        android:id="@+id/messageET" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/carviewofsendmessage"
+        android:layout_toRightOf="@id/messageET"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#0D47A1"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="45dp">
+
+
+
+        <ImageButton
+            android:id="@+id/sendIB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_send_24"
+            app:tint="@color/white"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+
+        </ImageButton>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
